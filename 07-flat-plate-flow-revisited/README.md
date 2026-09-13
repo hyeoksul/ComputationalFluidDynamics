@@ -5,8 +5,11 @@ transport, with operator verification and physical benchmark comparisons.
 The results are a later reconstruction, not the results of the original
 unsuccessful course submission.
 
-This project revisits an unsuccessful graduate coursework implementation and
-documents the numerical corrections with reproducible tests.
+I originally attempted this pressure-velocity problem as my second graduate
+CFD term project, but the submitted solver did not converge. This directory is
+a later reconstruction based on that work. It documents the defects found in
+the original formulation and keeps each correction tied to a reproducible
+test.
 
 ## Reconstructed problem
 
@@ -172,9 +175,9 @@ The four executed cases reduced maximum divergence from approximately
 Chang Min Lee's locally shared `solution-for-share.ipynb` was read to recover
 parameters and the unheated-start Nusselt comparison formula. The notebook is
 not redistributed. The revised solver was written separately with sparse
-assembly and explicit nonuniform staggered geometry; this is a reconstruction
-with AI assistance, not a claim that its new results were achieved in the
-original submission.
+assembly and explicit nonuniform staggered geometry during an AI-assisted
+portfolio review. Its new results are presented as post-course reconstruction
+results, not as results achieved in the original submission.
 
 The Blasius boundary-value ODE is solved independently with SciPy and checked
 against f''(0)=0.3320573362. NASA's

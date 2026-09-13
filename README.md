@@ -1,6 +1,14 @@
 # Finite-Volume CFD and Heat Transfer Solvers
 
-This repository collects numerical-method implementations developed from graduate coursework in computational fluid dynamics and heat transfer. The projects are organized by physical and numerical topic rather than by homework number.
+I originally developed these numerical-method projects while taking ME613
+Computational Fluid Dynamics. I later reorganized the working codes into
+topic-based, reproducible examples and reran the numerical verification for
+this portfolio.
+
+The public implementations are organized by physical and numerical topic
+rather than by homework number. [Development history](DEVELOPMENT_HISTORY.md)
+explains what came from the original coursework, what was corrected later,
+and how the unsuccessful pressure-velocity project was reconstructed.
 
 Each completed project includes:
 
@@ -40,4 +48,6 @@ A two-dimensional finite-volume solution of the parallel-plate thermal-entry pro
 
 A reconstructed staggered finite-volume SIMPLEC solver couples momentum, pressure and heat transport over a partially heated flat plate. The project documents errors in the original unsuccessful implementation and includes manufactured operator tests, conservation checks, grid and domain studies, and comparisons with Blasius and a heat-transfer correlation.
 
-The original course file names, student identifiers, assignment PDFs, and third-party solution files are intentionally excluded from this public-facing structure.
+Original submission PDFs, student identifiers, intermediate course files, and
+third-party solution notebooks are intentionally excluded from this public
+repository.
