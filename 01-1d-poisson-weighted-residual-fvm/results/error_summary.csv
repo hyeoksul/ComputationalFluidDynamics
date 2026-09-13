@@ -1,0 +1,8 @@
+Problem,Method,RMSError,MaxAbsoluteError
+Discontinuous source,Galerkin,0.000586962344772171,0.00140409367370397
+Discontinuous source,Point collocation,0.0159933747820213,0.0267235311446747
+Discontinuous source,Subdomain collocation,0.00459513427608492,0.00749636444656182
+Quadratic source,Galerkin,0.0182070367528724,0.0374828706184644
+Quadratic source,Point collocation,0.0505540790743696,0.0883419609118645
+Quadratic source,Subdomain collocation,0.106249159275464,0.173087777022057
+Discontinuous source with nonzero boundary,Finite volume,1.05729639578124e-13,1.63424829224823e-13

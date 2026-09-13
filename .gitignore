@@ -1,0 +1,24 @@
+# MATLAB generated files
+*.asv
+*.autosave
+*.m~
+slprj/
+codegen/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large or source-course artifacts
+*.mat
+*.pdf
+*.docx
+*.pptx
+*.tmp
+~$*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
