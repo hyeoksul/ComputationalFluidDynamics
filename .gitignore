@@ -13,6 +13,7 @@ __pycache__/
 # Large or source-course artifacts
 *.mat
 *.pdf
+!evidence/*.pdf
 *.docx
 *.pptx
 *.tmp
