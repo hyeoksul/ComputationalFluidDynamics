@@ -48,6 +48,17 @@ A two-dimensional finite-volume solution of the parallel-plate thermal-entry pro
 
 A reconstructed staggered finite-volume SIMPLEC solver couples momentum, pressure and heat transport over a partially heated flat plate. The project documents errors in the original unsuccessful implementation and includes manufactured operator tests, conservation checks, grid and domain studies, and comparisons with Blasius and a heat-transfer correlation.
 
-Original submission PDFs, student identifiers, intermediate course files, and
-third-party solution notebooks are intentionally excluded from this public
-repository.
+## Original coursework evidence
+
+My handwritten homework submissions and the first term-project report are
+available in [`evidence/`](evidence/README.md). These dated PDFs show the
+derivations, code excerpts, figures, and decisions I submitted during the
+course. The repository code is a later, corrected portfolio edition; results
+in the original PDFs are historical submission results, not necessarily the
+results of the current implementations.
+
+The second term project was unsuccessful in the original course submission.
+Its PDF is intentionally not included here. Project 07 remains a clearly
+labeled later reconstruction, not a claim of success at the time.
+
+Third-party solution notebooks and intermediate course files are excluded.

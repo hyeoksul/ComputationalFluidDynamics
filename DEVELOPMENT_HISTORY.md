@@ -5,9 +5,9 @@
 I began these projects in ME613 Computational Fluid Dynamics. During the
 course I worked through the governing equations, discretizations, boundary
 conditions, MATLAB or Python implementations, parameter studies, plots, and
-written reports. The original working directory contains the dated submission
-reports and intermediate files, but those records are not redistributed in
-this public repository.
+written reports. Selected dated homework submissions and the first term-project
+records are included in `evidence/`; intermediate files and the unsuccessful
+second term-project submission are not redistributed.
 
 The public repository is a later portfolio edition. I used my course codes and
 reports to reconstruct the problem statements, then standardized filenames,
@@ -42,3 +42,7 @@ results are not presented as results obtained in the original course
 submission. A third-party solution notebook was consulted to resolve an
 ambiguous heating-start location and reference correlation; it is credited in
 that project's README and is not included as project code.
+
+The evidence PDFs show my original handwritten work and submitted results.
+They do not supersede the code and numerical checks in this later portfolio
+edition; where the two differ, `Project lineage` describes the revision.
